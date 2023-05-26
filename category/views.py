@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render
 from rest_framework import viewsets, status
 from rest_framework.request import Request
 from rest_framework.response import Response
-from Categories.serializer import CategorySerializer
+from category.serializer import CategorySerializer
 from .models import Category
 
 # Create your views here.
